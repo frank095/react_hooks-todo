@@ -84,7 +84,7 @@ function App() {
             deleteTodo={deleteTodo}
           />
         ))}
-        <TodoFrom addTodo={addTodo} />>
+        <TodoFrom addTodo={addTodo} />
       </div>
     </div>
   );
